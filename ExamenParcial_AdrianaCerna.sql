@@ -1,6 +1,6 @@
 USE master 
 GO
-DROP DATABASE IF EXISTS ExamenParcial_62041249_AdrianaCerna
+DROP DATABASE IF EXISTS ExamenParcial_AdrianaCerna_62041249
 CREATE DATABASE ExamenParcial_62041249_AdrianaCerna
 GO
 
@@ -92,11 +92,13 @@ Gasto varchar(max),
 );
 
 CREATE TABLE PagoCliente(
-ID_Cliente int IDENTITY PRIMARY KEY,
+ID_Pago int IDENTITY PRIMARY KEY
+ID_Cliente int,
 Nombre varchar(max),
 Deuda int,
 PagoRelizado int,
 Fecha DATETIME,
+FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
 );
 
 CREATE TABLE Cliente(
