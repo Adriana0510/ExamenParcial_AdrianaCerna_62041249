@@ -1,10 +1,10 @@
 USE master 
 GO
 DROP DATABASE IF EXISTS ExamenParcial_AdrianaCerna_62041249
-CREATE DATABASE ExamenParcial_62041249_AdrianaCerna
+CREATE DATABASE ExamenParcial_AdrianaCerna_62041249
 GO
 
-USE ExamenParcial_62041249_AdrianaCerna
+USE ExamenParcial_AdrianaCerna_62041249
 GO
 
 --------------------Modulo 2--------------------
@@ -91,16 +91,6 @@ ID_Tipo int IDENTITY PRIMARY KEY,
 Gasto varchar(max),
 );
 
-CREATE TABLE PagoCliente(
-ID_Pago int IDENTITY PRIMARY KEY
-ID_Cliente int,
-Nombre varchar(max),
-Deuda int,
-PagoRelizado int,
-Fecha DATETIME,
-FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
-);
-
 CREATE TABLE Cliente(
 ID_Cliente int IDENTITY PRIMARY KEY,
 ID_TipoCliente int,
@@ -109,6 +99,16 @@ Deuda int,
 Correo varchar(max),
 Telefono int,
 FOREIGN KEY (ID_TipoCliente) REFERENCES TipoCliente(ID_TipoCliente)
+);
+
+CREATE TABLE PagoCliente(
+ID_Pago int IDENTITY PRIMARY KEY,
+ID_Cliente int,
+Nombre varchar(max),
+Deuda int,
+PagoRelizado int,
+Fecha DATETIME,
+FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
 );
 
 CREATE TABLE Factura(
@@ -132,7 +132,7 @@ FOREIGN KEY (ID_Tipo) REFERENCES TiposGasto(ID_Tipo),
 
 --------------------Insertar Valores--------------------
 
-USE [ExamenParcial_62041249_AdrianaCerna]
+USE [ExamenParcial_AdrianaCerna_62041249]
 GO
 SET IDENTITY_INSERT [dbo].[TipoProveedor] ON 
 GO
