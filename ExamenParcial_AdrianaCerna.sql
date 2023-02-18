@@ -238,17 +238,17 @@ INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [
 GO
 INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (13, 3, 3, 131, 2, 1310, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (14, 4, 4, 15, 1, 300, NULL)
+INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (14, 4, 4, 15, 1, 300, CAST(N'2023-01-28T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (15, 5, 5, 23, 1, 506, NULL)
+INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (15, 5, 5, 23, 1, 506, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (16, 6, 6, 15, 2, 1215, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (17, 7, 7, 94, 1, 3008, CAST(N'2023-06-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (18, 8, 8, 45, 2, 675, NULL)
+INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (18, 8, 8, 45, 2, 675, CAST(N'2023-01-28T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (19, 9, 9, 15, 2, 480, NULL)
+INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (19, 9, 9, 15, 2, 480, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[Compra] ([ID_Compra], [ID_Proveedor], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (20, 10, 10, 95, 1, 2090, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
 GO
@@ -260,21 +260,21 @@ INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total],
 GO
 INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (2, 2, 25, 2, 2500, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (3, 3, 67, 1, 670, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (3, 3, 67, 1, 670, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (4, 4, 5, 1, 100, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (4, 4, 5, 1, 100, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (5, 5, 15, 2, 330, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (6, 6, 5, 1, 405, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (6, 6, 5, 1, 405, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (7, 7, 64, 2, 2048, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (7, 7, 64, 2, 2048, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (8, 8, 30, 2, 450, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (9, 9, 9, 1, 288, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (9, 9, 9, 1, 288, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (10, 10, 61, 1, 1342, NULL)
+INSERT [dbo].[Venta] ([ID_Venta], [ID_Producto], [Cantidad], [ID_Pago], [Total], [Fecha_Pago]) VALUES (10, 10, 61, 1, 1342, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 SET IDENTITY_INSERT [dbo].[Venta] OFF
 GO
@@ -328,49 +328,59 @@ SET IDENTITY_INSERT [dbo].[TipoCliente] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Cliente] ON 
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (1, 1, N'Fernando', 1000, N'fernando@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (1, 1, N'Fernando', 1000, N'fernando@gmail.com', 95909783)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (2, 2, N'Jose', 0, N'jose@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (2, 2, N'Jose', 0, N'jose@gmail.com', 14124532)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (3, 2, N'Rolando', 0, N'roland@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (3, 2, N'Rolando', 0, N'roland@gmail.com', 48521861)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (4, 1, N'Maria', 4326, N'maria@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (4, 1, N'Maria', 4326, N'maria@gmail.com', 74152411)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (5, 1, N'Juan', 5314, N'juan@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (5, 1, N'Juan', 5314, N'juan@gmail.com', 48161568)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (6, 1, N'Jorge', 8621, N'jorge@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (6, 1, N'Jorge', 8621, N'jorge@gmail.com', 12651562)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (7, 2, N'Carlos', 0, N'carlos@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (7, 2, N'Carlos', 0, N'carlos@gmail.com', 34855214)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (8, 1, N'Andrea', 10000, N'andrea@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (8, 1, N'Andrea', 10000, N'andrea@gmail.com', 84236181)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (9, 2, N'Andres', 0, N'andres@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (9, 2, N'Andres', 0, N'andres@gmail.com', 36282652)
 GO
-INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (10, 2, N'Alejandra', 0, N'alejandra@gmail.com', NULL)
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (10, 2, N'Alejandra', 0, N'alejandra@gmail.com', 62112481)
+GO
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (11, 2, N'Ronald', 1561, N'rolando@gmail.com', 52566546)
+GO
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (12, 2, N'Richard', 846, N'richar@gmail.com', 15685861)
+GO
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (13, 2, N'Frank', 4613, N'frank@gmail.com', 15652564)
+GO
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (14, 2, N'Amelia', 846, N'amelia@gmail.com', 48612641)
+GO
+INSERT [dbo].[Cliente] ([ID_Cliente], [ID_TipoCliente], [Nombre], [Deuda], [Correo], [Telefono]) VALUES (15, 2, N'David', 1949, N'david@gmail.com', 15641256)
 GO
 SET IDENTITY_INSERT [dbo].[Cliente] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Factura] ON 
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (21, 1, 1, NULL, CAST(N'2023-02-18T06:50:00.000' AS DateTime), 1566)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (21, 1, 1, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T06:50:00.000' AS DateTime), 1566)
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (22, 2, 2, NULL, CAST(N'2023-02-18T06:00:00.000' AS DateTime), 8123)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (22, 2, 2, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T06:00:00.000' AS DateTime), 8123)
 GO
 INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (23, 3, 3, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T08:25:00.000' AS DateTime), 4131)
 GO
 INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (24, 4, 4, CAST(N'2023-09-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T08:19:00.000' AS DateTime), 2614)
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (25, 5, 5, NULL, CAST(N'2023-02-18T12:31:00.000' AS DateTime), 5156)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (25, 5, 5, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T12:31:00.000' AS DateTime), 5156)
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (26, 6, 6, NULL, CAST(N'2023-02-18T11:50:00.000' AS DateTime), 1853)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (26, 6, 6, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T11:50:00.000' AS DateTime), 1853)
 GO
 INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (27, 7, 7, CAST(N'2023-09-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T02:38:00.000' AS DateTime), 4853)
 GO
 INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (28, 8, 8, CAST(N'2023-06-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T06:04:00.000' AS DateTime), 1235)
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (29, 9, 9, NULL, CAST(N'2023-02-18T07:02:00.000' AS DateTime), 861)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (29, 9, 9, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T07:02:00.000' AS DateTime), 861)
 GO
-INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (30, 10, 10, NULL, CAST(N'2023-02-18T01:00:00.000' AS DateTime), 156)
+INSERT [dbo].[Factura] ([ID_Factura], [ID_Cliente], [ID_Producto], [Fecha], [Hora], [Total_Venta]) VALUES (30, 10, 10, CAST(N'2023-04-02T00:00:00.000' AS DateTime), CAST(N'2023-02-18T01:00:00.000' AS DateTime), 156)
 GO
 SET IDENTITY_INSERT [dbo].[Factura] OFF
 GO
@@ -400,27 +410,53 @@ SET IDENTITY_INSERT [dbo].[TiposGasto] OFF
 GO
 SET IDENTITY_INSERT [dbo].[GastoCasa] ON 
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (1, 1, 700, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (1, 1, 700, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (2, 2, 9500, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (2, 2, 9500, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (3, 3, 600, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (4, 4, 2000, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (5, 5, 400, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (5, 5, 400, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (6, 6, 1250, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (6, 6, 1250, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (7, 7, 1000, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
 GO
 INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (8, 8, 4500, CAST(N'2023-06-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (9, 9, 250, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (9, 9, 250, CAST(N'2023-06-02T00:00:00.000' AS DateTime))
 GO
-INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (10, 10, 640, NULL)
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (10, 10, 640, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[GastoCasa] ([ID_Gasto], [ID_Tipo], [Total], [Fecha]) VALUES (11, 9, 1516, CAST(N'2023-06-02T00:00:00.000' AS DateTime))
 GO
 SET IDENTITY_INSERT [dbo].[GastoCasa] OFF
+GO
+SET IDENTITY_INSERT [dbo].[PagoCliente] ON 
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (1, 1, N'Fernando', 1000, 200, CAST(N'2023-02-17T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (2, 4, N'Maria', 4326, 3515, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (3, 5, N'Juan', 5314, 2351, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (4, 6, N'Jorge', 8621, 8451, CAST(N'2023-09-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (5, 8, N'Andrea', 10000, 5165, CAST(N'2023-03-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (16, 11, N'Ronald', 1561, 984, CAST(N'2023-03-02T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (17, 12, N'Richard', 846, 213, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (18, 13, N'Frank', 4613, 1354, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (19, 14, N'Amelia', 846, 654, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
+GO
+INSERT [dbo].[PagoCliente] ([ID_Pago], [ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (20, 15, N'David', 1949, 235, CAST(N'2023-03-02T00:00:00.000' AS DateTime))
+GO
+SET IDENTITY_INSERT [dbo].[PagoCliente] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Caja] ON 
 GO
@@ -446,27 +482,4 @@ INSERT [dbo].[Caja] ([ID_Turno], [Apertura], [Cierre], [Fecha], [Cobrante], [Tot
 GO
 SET IDENTITY_INSERT [dbo].[Caja] OFF
 GO
-SET IDENTITY_INSERT [dbo].[PagoCliente] ON 
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (1, N'Fernando', 1000, 200, CAST(N'2023-02-17T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (2, N'Maria', 4326, 3515, CAST(N'2023-02-10T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (3, N'Juan', 5314, 2351, CAST(N'2023-04-02T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (4, N'Jorge', 8621, 8451, CAST(N'2023-02-09T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (5, N'Andrea', 10000, 5165, CAST(N'2023-02-07T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (6, N'Ronald', 1561, 984, CAST(N'2023-02-03T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (7, N'Richard', 846, 213, CAST(N'2023-02-01T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (8, N'Frank', 4613, 1354, CAST(N'2023-02-08T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (9, N'Amelia', 846, 654, CAST(N'2023-02-05T00:00:00.000' AS DateTime))
-GO
-INSERT [dbo].[PagoCliente] ([ID_Cliente], [Nombre], [Deuda], [PagoRelizado], [Fecha]) VALUES (10, N'David', 1949, 235, CAST(N'2023-02-03T00:00:00.000' AS DateTime))
-GO
-SET IDENTITY_INSERT [dbo].[PagoCliente] OFF
-GO
+
